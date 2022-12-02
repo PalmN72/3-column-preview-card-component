@@ -78,16 +78,16 @@ img {
   border-radius: 0 0 1em 1em;
 }
 
-#sedans {
+.sedans {
   background-color: var(--clr-primary-bright-500);
   margin-top: 40px;
 }
 
-#suvs {
+.suvs {
   background-color: var(--clr-primary-dark-800);
 }
 
-#luxury {
+.luxury {
   background-color: var(--clr-primary-dark-900);
   margin-bottom: 40px;
 }
@@ -97,55 +97,52 @@ a {
   border-radius: 2em;
   border: transparent;
   background-color: var(--clr-neutral-g100);
-}
-
-#sedans a {
-  color: var(--clr-primary-bright-500);
-}
-
-#suvs a {
-  color: var(--clr-primary-dark-800);
-}
-
-#luxury a {
-  color: var(--clr-primary-dark-900);
-}
-
-a {
   text-decoration: none;
 }
 
-#sedans a:hover {
+.sedans a {
+  color: var(--clr-primary-bright-500);
+}
+
+.suvs a {
+  color: var(--clr-primary-dark-800);
+}
+
+.luxury a {
+  color: var(--clr-primary-dark-900);
+}
+
+.sedans a:hover {
   background-color: var(--clr-primary-bright-500);
   color: var(--clr-neutral-g100);
   border: 1px solid var(--clr-neutral-g100);
 }
 
-#suvs a:hover {
+.suvs a:hover {
   background-color: var(--clr-primary-dark-800);
   color: var(--clr-neutral-g100);
   border: 1px solid var(--clr-neutral-g100);
 }
 
-#luxury a:hover {
+.luxury a:hover {
   background-color: var(--clr-primary-dark-900);
   color: var(--clr-neutral-g100);
   border: 1px solid var(--clr-neutral-g100);
 }
 
-#sedans a:focus-visible {
+.sedans a:focus-visible {
   background-color: var(--clr-primary-bright-500);
   color: var(--clr-neutral-g100);
   border: 1px solid var(--clr-neutral-g100);    
 }
 
-#suvs a:focus-visible {
+.suvs a:focus-visible {
   background-color: var(--clr-primary-dark-800);
   color: var(--clr-neutral-g100);
   border: 1px solid var(--clr-neutral-g100);
 }
 
-#luxury a:focus-visible {
+.luxury a:focus-visible {
   background-color: var(--clr-primary-dark-900);
   color: var(--clr-neutral-g100);
   border: 1px solid var(--clr-neutral-g100);
@@ -166,11 +163,11 @@ a {
     margin: 0 auto;
   }
 
-  #sedans {
+  .sedans {
     margin-top: 0px;
   }
 
-  #luxury {
+  .luxury {
     margin-bottom: 0px;
   }
 
